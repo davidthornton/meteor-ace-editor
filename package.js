@@ -2,7 +2,7 @@ var fs = Npm.require("fs");
 
 Package.describe({
   name: 'davidthornton:ace-editor',
-  summary: 'Fork of arch:ace-editor - Integrating Ace editor with Meteor since 2015, updated to version 1.1.8',
+  summary: 'Fork of arch:ace-editor, updated to version 1.1.8',
   version: '1.1.8',
   git: 'https://github.com/davidthornton/meteor-ace-editor'
 });
