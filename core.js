@@ -34,7 +34,7 @@ var loadScript = function(script, successfulCB, failCB) {
     request.send();
 }
 
-var acePath = "/packages/arch_ace-editor/ace-builds/src-noconflict/";
+var acePath = "/packages/davidthornton_ace-editor/ace-builds/src-noconflict/";
 var StateOfAceEditor = new Tracker.Dependency;
 
 AceEditor = (function() {

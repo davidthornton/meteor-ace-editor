@@ -22,6 +22,6 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use('tinytest');
-  api.use('arch:ace-editor');
+  api.use('davidthornton:ace-editor');
   api.addFiles('tests.js','client');
 });
